@@ -19,6 +19,7 @@ class Cars
         this->model=model;
     }
 
+     
     void getdata(){
         cout <<"Price:" << this->price << endl;
         cout <<"Name:" << this->name << endl;
@@ -65,6 +66,8 @@ int main()
 
         c[i].setData(price,name,fuel,model);
     }
+    
+    c[1].name="nexa";
 
     for(i = 0;i < number ; i++){
         cout <<"--------models----------" << endl;
