@@ -107,6 +107,9 @@ class Linkedlist{
       this->count--;
 
     }
+    void Deleteatpos(int pos){
+        
+    }
 };
 int main(){
 
