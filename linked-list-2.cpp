@@ -102,7 +102,7 @@ class LinkedList{
         {
             temp=temp->next;
         }
-        delete temp->next;
+        // delete temp->next;
         temp->next = nullptr;
         this->count--;
         
@@ -119,9 +119,9 @@ class LinkedList{
             prev=prev->next;
         }
         prev->next=curr->next;
-        delete curr;
-        prev = nullptr;
-        this->count--;
+        // delete curr;
+        // prev = nullptr;
+        this->count--; 
     }
     void Display(){
         Node *temp=Head;
