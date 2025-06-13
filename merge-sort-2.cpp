@@ -4,7 +4,7 @@ using namespace std;
 
 
 void  mergeSort(vector<int>&arr,int,int);
-void merge(vector<int>&arr,int low,int mid,int high);
+void  merge (vector<int>&arr,int low,int mid,int high);
 int main(){
 
     int size;
@@ -72,6 +72,6 @@ void merge(vector<int>&arr,int low,int mid,int high){
 
 
      for(int i = low;i <= high;i++){
-        arr[i]=temp[i -low];
+        arr[i]=temp[i - low];
      }
 }
